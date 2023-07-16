@@ -1,3 +1,4 @@
+*.user
 .vs/
 CopyFullPath/bin/
 CopyFullPath/obj/
