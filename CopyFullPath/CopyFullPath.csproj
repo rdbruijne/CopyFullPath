@@ -5,17 +5,21 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
-    <PackageIcon>icon.ico</PackageIcon>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
-    <Version>1.1</Version>
+    <PackageIcon>Icon.png</PackageIcon>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+    <Version>1.2</Version>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <Authors>rdbruijne</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/rdbruijne/CopyFullPath</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="icon.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="icon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Resources\Icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
